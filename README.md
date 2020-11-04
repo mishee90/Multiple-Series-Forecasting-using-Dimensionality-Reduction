@@ -1,0 +1,2 @@
+# Multiple-Series-Forecasting-using-Dimensionality-Reduction
+Forecasting multiple related time series, such as store and department-level sales, can require numerous different time series models to forecast each individual time series. Using data from the Walmart Recruiting Stores Sales Forecasting Challenge, can we find successful methods of reducing the dimensionality of the forecasting task and limit the number of total models necessary to accurately forecast the individual store/department level sales?
