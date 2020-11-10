@@ -84,5 +84,8 @@ The decomposed model performed well when compared with forecasting individual se
 ![alt text](https://github.com/mishee90/Multiple-Series-Forecasting-using-Dimensionality-Reduction/blob/main/SVD_Arima_Results.PNG)
 
 
+# Resources and Credits
 
-
+Many thanks to the following Stanford University lecture notes on SVD:
+1. The Singular Value Decomposition (SVD) and Low-Rank Matrix ApproximationsStanford University, April 27, 2015. Tim Roughgarden & Gregory Valianthttp://theory.stanford.edu/~tim/s15/l/l9.pdf
+2. This work was performed as a group with equal contribution from Karthik Subramanian and Audery Salerno from The University of Chicago
