@@ -81,4 +81,8 @@ Here A is the actual value and F is the forecasted value
 
 The decomposed model performed well when compared with forecasting individual series for each store-department combination using ARIMA. The loss in accuracy with SVD based forecasting model was ~13% across the 5 departments where we tested the model.
 
+![alt text](https://github.com/mishee90/Multiple-Series-Forecasting-using-Dimensionality-Reduction/blob/main/SVD_Arima_Results.PNG)
+
+
+
 
