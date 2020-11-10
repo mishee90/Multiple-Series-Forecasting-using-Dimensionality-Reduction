@@ -69,7 +69,7 @@ After forecasting the first 3 columns of UᐧS, we need to  recompose the princi
 3. The remaining values of the forecasted rows are filled with the values from the nth (last known) row.
 4. The original A (plus forecast) is then reconstructed with the dot product A = UᐧSᐧV^T
 
-![alt text](https://github.com/mishee90/Multiple-Series-Forecasting-using-Dimensionality-Reduction/blob/main/SVD.jpg)
+
 
 # Model Evaluation
 
