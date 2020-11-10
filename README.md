@@ -60,3 +60,19 @@ After calculating the U, S, V of the SVD, we need to choose the principal compon
 Using ARIMA, we forecast the top 3 principal component columns for each department
 1. The overall complexity has been reduced to 3 models per department (instead of 45)
 * 81 departments x 3 PC = 243 models, down from 3331 total department-store TS
+
+# Recreating the original Time Series (Matrix A) after forecasting using ARIMA
+
+After forecasting the first 3 columns of UᐧS, we need to  recompose the principal component forecasts back to the original 45 stores sales.
+1. The UᐧS matrix is extended by the h steps forecasted.
+2. The forecasted values are placed in the first 3 columns of the n+1 to n+h rows.
+3. The remaining values of the forecasted rows are filled with the values from the nth (last known) row.
+4. The original A (plus forecast) is then reconstructed with the dot product A = UᐧSᐧV^T
+
+![alt text](https://github.com/mishee90/Multiple-Series-Forecasting-using-Dimensionality-Reduction/blob/main/SVD.jpg)
+
+# Model Evaluation
+
+The decomposed ARIMA model was evaluated using SMAPE - Symetric Mean Absolute Percent Error
+
+
