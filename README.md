@@ -75,4 +75,4 @@ After forecasting the first 3 columns of UᐧS, we need to  recompose the princi
 
 The decomposed ARIMA model was evaluated using SMAPE - Symetric Mean Absolute Percent Error
 
-![alt text](![alt text](https://github.com/mishee90/Multiple-Series-Forecasting-using-Dimensionality-Reduction/blob/main/SVD.jpg))
+![alt text](https://github.com/mishee90/Multiple-Series-Forecasting-using-Dimensionality-Reduction/blob/main/SMAPE.jpg)
