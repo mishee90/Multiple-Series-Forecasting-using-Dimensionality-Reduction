@@ -43,7 +43,7 @@ Where:
 2. S = n x d diagonal matrix with nonnegative entries, and diagonal entries sorted from high to low
 3. V = d x d orthogonal matrix
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/mishee90/Multiple-Series-Forecasting-using-Dimensionality-Reduction/blob/main/SVD.jpg)
 
 
 
