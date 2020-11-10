@@ -45,5 +45,18 @@ Where:
 
 ![alt text](https://github.com/mishee90/Multiple-Series-Forecasting-using-Dimensionality-Reduction/blob/main/SVD.jpg)
 
+Note that A does not has to be a square matrix for SVD decomposition. The columns of matrxi U are the left singular vectors of A. The columns of V are right singular vectors 
+of A and the diagonal of S are the singular values of A.
 
+# Low Rank Representation from SVD
 
+After calculating the U, S, V of the SVD, we need to choose the principal components to forecast i.e. minimum number of components of A that explain maximum variance.
+1. The matrix of principal component columns is calculated as UᐧS (dim nxd)
+2. Analyzing the explained variance ratio of these components with a scree plot of d, we identify that the first 3 components account for 99% of the total variance of the data set.
+3. Now we can use the first 3 principal component columns of UᐧS as the time series to forecast.
+
+# Forecast Using Principal Components
+
+Using ARIMA, we forecast the top 3 principal component columns for each department
+1. The overall complexity has been reduced to 3 models per department (instead of 45)
+.   81 departments x 3 PC = 243 models, down from 3331 total department-store TS
