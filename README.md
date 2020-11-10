@@ -59,4 +59,4 @@ After calculating the U, S, V of the SVD, we need to choose the principal compon
 
 Using ARIMA, we forecast the top 3 principal component columns for each department
 1. The overall complexity has been reduced to 3 models per department (instead of 45)
-.   81 departments x 3 PC = 243 models, down from 3331 total department-store TS
+* 81 departments x 3 PC = 243 models, down from 3331 total department-store TS
