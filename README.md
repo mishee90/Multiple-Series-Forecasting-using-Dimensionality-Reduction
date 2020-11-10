@@ -29,4 +29,21 @@ Forecasting multiple related time series, such as store and department-level sal
 
 # Why Dimensionality Reduction
 
-Inorder to skip building a number of different individual TimeSeries models and reduced the overhead of managing severall models we explored how dimensionality reduction techniques like SVD can help
+Inorder to skip building a number of different individual TimeSeries models and reduce the overhead of managing severall models we explored how dimensionality reduction techniques like SVD can be used to shrink the number of series that are to be predicted
+
+# Singular Value Decomposition - Revisiting the Basics
+
+A singular value decomposition (SVD) of an n x d matrix A expresses the matrix as the product of three simple matrices such that:
+
+A = U . S . V^T
+
+Where:
+
+1. U =  n x d orthogonal matrix 
+2. S = n x d diagonal matrix with nonnegative entries, and diagonal entries sorted from high to low
+3. V = d x d orthogonal matrix
+
+
+
+
+
