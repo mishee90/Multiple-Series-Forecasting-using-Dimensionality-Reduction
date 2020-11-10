@@ -76,3 +76,9 @@ After forecasting the first 3 columns of UᐧS, we need to  recompose the princi
 The decomposed ARIMA model was evaluated using SMAPE - Symetric Mean Absolute Percent Error
 
 ![alt text](https://github.com/mishee90/Multiple-Series-Forecasting-using-Dimensionality-Reduction/blob/main/SMAPE.jpg)
+
+Here A is the actual value and F is the forecasted value
+
+The decomposed model performed well when compared with forecasting individual series for each store-department combination using ARIMA. The loss in accuracy with SVD based forecasting model was ~13% across the 5 departments where we tested the model.
+
+
